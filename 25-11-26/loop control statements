@@ -1,0 +1,5 @@
+emails = ['venkatnarayana@gmail', 'obulreddy@okkadu.in',
+          'gopichandhjayam.com', 'singhamsurya@tamilNaducom']
+for email in emails:
+    if '@' in email and '.' in email and email.endswith(('.com', '.in')):
+        print(email)
